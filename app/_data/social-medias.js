@@ -1,18 +1,14 @@
 export const socialMedias = [
   {
-    href: 'https://www.awwwards.com/dennissnellenberg/',
-    title: 'Awwwards',
-  },
-  {
-    href: 'https://www.instagram.com/codebydennis/',
+    href: 'https://instagram.com/aashish_rj_singh',
     title: 'Instagram',
   },
   {
-    href: 'https://dribbble.com/dennissnellenberg',
-    title: 'Dribbble',
+    href: 'https://x.com/_aashish_singh_',
+    title: 'X',
   },
   {
-    href: 'https://www.linkedin.com/in/dennissnellenberg/',
+    href: 'https://www.linkedin.com/in/aashish-ranjan-singh-9848091b9/',
     title: 'LinkedIn',
   },
 ];

@@ -1,43 +1,50 @@
 export const projectPages = [
   {
-    slug: 'fabric',
-    href: '/fabric',
-    title: 'FABRIC™',
-    image: '/images/thumbnails/fabric.webp',
+    slug: 'steroid-kit',
+    href: '/steroid-kit',
+    externalUrl: 'https://steroidkit.com',
+    title: 'Steroid Kit',
+    category: 'AI Software',
+    image: '/images/thumbnails/steroid_kit.webp',
     summary:
-      'A brand-led digital experience focused on clarity, motion, and strong visual rhythm.',
+      'A unified AI developer ecosystem designed to make agent workflows reliable, secure, and production ready.',
     description:
-      'This concept page represents a polished product story with clean typography, confident spacing, and an interface designed to guide attention without adding noise.',
+      'Steroid Kit combines MCP tooling, Vault, Flows, and CLI into one cohesive system. It is built for teams that need fast setup, dramatically reduced context bloat, protection against prompt injection, and deterministic flow execution for real-world agent operations.',
   },
   {
-    slug: 'aanstekelijk',
-    href: '/aanstekelijk',
-    title: 'Aanstekelijk',
-    image: '/images/thumbnails/aanstekelijk.webp',
+    slug: 'meesho-dice',
+    href: '/meesho-dice',
+    externalUrl: 'https://github.com/aashish2604/meesho_dice',
+    title: 'Meesho Dice',
+    category: 'Mobile Application',
+    image: '/images/thumbnails/Meesho_dice.webp',
     summary:
-      'A campaign-style presentation built to feel lively, direct, and easy to scan.',
+      'An enhanced vision of the Meesho app featuring immersive commerce flows like AR, virtual try-on, 3D view, social carts, gamification, and an AI assistant.',
     description:
-      'The layout balances large headlines with supportive copy so the story stays readable while still feeling expressive and contemporary across screen sizes.',
+      'Meesho Dice was built as an upgraded version of the existing Meesho experience. We introduced augmented reality, virtual try-on, 3D product view, social carts, in-app gamification, and an AI assistant to rethink how discovery and conversion could feel inside the app, ultimately winning the national-level hackathon.',
   },
   {
-    slug: 'base-create',
-    href: '/base-create',
-    title: 'Base Create',
-    image: '/images/thumbnails/base-create.webp',
+    slug: 'parsed-readmore',
+    href: '/parsed-readmore',
+    externalUrl: 'https://pub.dev/packages/parsed_readmore',
+    title: 'Parsed Readmore',
+    category: 'Open Source Library',
+    image: '/images/thumbnails/parsed_readmore.webp',
     summary:
-      'A flexible creative showcase for presenting work, process, and outcomes in one flow.',
+      'An open-source Flutter package built for production use and maintained over time with real developer adoption.',
     description:
-      'This route highlights an editorial approach to portfolio storytelling, pairing strong imagery with measured pacing and minimal distractions.',
+      'Parsed Readmore is a practical Flutter utility package that I built, published, and maintained. It reflects an open-source mindset grounded in solving real developer pain points and supporting ongoing usage rather than treating release as the end of the work.',
   },
   {
-    slug: 'avvr',
-    href: '/avvr',
-    title: 'AVVR',
-    image: '/images/thumbnails/avvr.webp',
+    slug: 'resume-builder',
+    href: '/resume-builder',
+    externalUrl: 'https://github.com/aashish2604/adobe_resume_builder',
+    title: 'Adobe Resume Builder',
+    category: 'Cross-Platform Application',
+    image: '/images/thumbnails/resume_builder.webp',
     summary:
-      'A modern portfolio case-study shell with a darker, more cinematic tone.',
+      'A minimalistic looking cross-platform resume generator built to run across Android, iOS, Linux, Windows, macOS, and the web.',
     description:
-      'The page structure is set up to support future expansion with richer case-study content, deliverables, and supporting visuals without changing the route model.',
+      'This project showcases my bias toward shipping shared product experiences across platforms. It combines practical utility, platform reach, and consistent engineering across mobile, desktop, and web targets.',
   },
 ];
-

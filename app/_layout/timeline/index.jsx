@@ -145,11 +145,11 @@ export function Timeline() {
             Career Tree
           </p>
           <h2 className='mt-4 text-[clamp(2.75rem,6vw,5rem)] leading-none'>
-            Notable moments that shaped the path.
+            Milestones that shaped my path in software.
           </h2>
           <p className='mt-6 text-base leading-7 text-muted-foreground'>
-            This section is pinned to the viewport. Keep scrolling vertically
-            and the timeline will advance horizontally across the screen.
+            Scroll through the defining moments across academics, internships,
+            open source, hackathons, Adobe, and my current product journey.
           </p>
         </div>
       </div>

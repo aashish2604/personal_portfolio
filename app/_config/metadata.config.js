@@ -1,31 +1,39 @@
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+
 /** @type {import('next').Metadata} */
 export const rootMetadata = {
-  metadataBase: new URL('https://dennis-snellenberg-portfolio.vercel.app/'),
+  metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [
+      { url: '/profile.webp', type: 'image/webp' },
+      { url: '/favicon.ico', sizes: '256x256' },
+    ],
+    shortcut: ['/favicon.ico'],
+    apple: [{ url: '/profile.webp', type: 'image/webp' }],
+  },
   title: {
-    template: '%s | Dennis Snellenberg',
-    default: 'Dennis Snellenberg • Freelance Designer & Developer',
+    template: '%s | Aashish Ranjan Singh',
+    default: 'Aashish Ranjan Singh • Software Developer',
   },
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
-  generator: 'Dennis Snellenberg',
-  applicationName: 'Dennis Snellenberg',
+    'Architecting reliable infrastructure for the AI-driven era with production-ready software, AI systems, and rapid execution.',
+  generator: 'Aashish Ranjan Singh',
+  applicationName: 'Aashish Ranjan Singh',
   referrer: 'origin-when-cross-origin',
-  keywords: ['Design', 'Develope', 'Freelance'],
-  authors: [
-    { name: 'Ali Bagheri', url: 'https://www.github.com/alibagheri2079' },
-  ],
-  creator: 'Ali Bagheri',
-  publisher: 'Ali Bagheri',
+  keywords: ['Software Developer', 'AI', 'Systems Architect'],
+  authors: [{ name: 'Aashish Ranjan Singh', url: 'https://github.com/aashish2604' }],
+  creator: 'Aashish Ranjan Singh',
+  publisher: 'Aashish Ranjan Singh',
   twitter: {
     card: 'summary_large_image',
-    title: 'Dennis Snellenberg',
+    title: 'Aashish Ranjan Singh',
     description:
-      'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
-    siteId: '1467726470533754880',
-    creator: '@AliBagheri2079',
-    creatorId: '1467726470533754880',
+      'Architecting reliable infrastructure for the AI-driven era with production-ready software, AI systems, and rapid execution.',
+    creator: '@_aashish_singh_',
     images: {
-      url: 'https://dennis-snellenberg-portfolio.vercel.app/screenshot.png',
+      url: '/screenshot.png',
       alt: 'Portfolio Screenshot',
     },
   },

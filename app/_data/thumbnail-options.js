@@ -1,7 +1,10 @@
 import { projectPages } from './project-pages';
 
-export const thumbnailOptions = projectPages.map(({ href, title, image }) => ({
-  href,
-  title,
-  image,
-}));
+export const thumbnailOptions = projectPages
+  .slice(0, 3)
+  .map(({ externalUrl, title, image, category }) => ({
+    href: externalUrl,
+    title,
+    image,
+    category,
+  }));

@@ -3,16 +3,15 @@
 import { achievements } from '@/data';
 
 export function Achievements() {
-  const items = achievements.map(({ value, label, detail }) => (
+  const duplicatedAchievements = [...achievements, ...achievements];
+  const cards = duplicatedAchievements.map(({ value, label, detail }, index) => (
     <article
-      key={label}
-      className='rounded-[2rem] border border-border/70 bg-card/40 p-6 backdrop-blur-sm transition-transform duration-300 ease-in-expo hover:-translate-y-1'
+      key={`${label}-${index}`}
+      className='w-80 flex-none rounded-[2rem] border border-border/70 bg-card/40 p-6 backdrop-blur-sm'
     >
-      <p className='text-[clamp(2.5rem,7vw,5rem)] leading-none'>{value}</p>
-      <h3 className='mt-4 text-xl'>{label}</h3>
-      <p className='mt-3 max-w-sm text-sm leading-7 text-muted-foreground'>
-        {detail}
-      </p>
+      <p className='text-[clamp(2rem,5vw,3rem)] leading-none'>{value}</p>
+      <h3 className='mt-4 text-lg'>{label}</h3>
+      <p className='mt-3 text-sm leading-7 text-muted-foreground'>{detail}</p>
     </article>
   ));
 
@@ -25,16 +24,20 @@ export function Achievements() {
               Achievements
             </p>
             <h2 className='mt-4 text-[clamp(2.5rem,6vw,5rem)] leading-none'>
-              Tangible momentum behind the craft.
+              Milestones earned through execution.
             </h2>
           </div>
           <p className='max-w-xl text-base leading-7 text-muted-foreground'>
-            A quick snapshot of scale, consistency, and the kind of work this
-            portfolio is designed to represent.
+            A rolling snapshot of competitive wins, academic milestones,
+            open-source maintenance, and high-leverage engineering outcomes.
           </p>
         </div>
 
-        <div className='grid gap-5 md:grid-cols-2 xl:grid-cols-4'>{items}</div>
+        <div className='overflow-hidden'>
+          <div className='achievements-marquee flex min-w-max gap-5 pe-5'>
+            {cards}
+          </div>
+        </div>
       </div>
     </section>
   );

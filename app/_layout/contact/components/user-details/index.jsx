@@ -24,10 +24,10 @@ export function UserDetails({ transformX }) {
               className='rounded-full object-cover'
               fill={true}
               sizes='128px'
-              alt='Dennis Snellenberg Profile Picture'
+              alt='Aashish Ranjan Singh profile picture'
             />
           </ImageWrapper>
-          <MainTitle>Let’s work</MainTitle>
+          <MainTitle>Let&apos;s brainstorm</MainTitle>
         </div>
         <div className='flex items-center justify-between'>
           <MainTitle>together</MainTitle>
@@ -55,24 +55,24 @@ export function UserDetails({ transformX }) {
       <Row>
         <div className='flex w-full flex-col gap-4 lg:flex-row'>
           <div>
-            <a href='mailto:info@dennissnellenberg.com'>
+            <a href='mailto:singh.aashish2604@gmail.com'>
               <MagneticButton
                 variant='outline'
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                info@dennissnellenberg.com
+                singh.aashish2604@gmail.com
               </MagneticButton>
             </a>
           </div>
           <div>
-            <a href='tel:+31627847430'>
+            <a href='tel:+919199892122'>
               <MagneticButton
                 variant='outline'
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                +31 6 27 84 74 30
+                +91 91998 92122
               </MagneticButton>
             </a>
           </div>

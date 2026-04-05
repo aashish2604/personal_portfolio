@@ -39,7 +39,7 @@ export default function ProjectPage({ params }) {
         <section className='mx-auto flex max-w-6xl flex-col gap-12 lg:flex-row lg:items-center'>
           <div className='flex-1'>
             <p className='mb-4 text-sm uppercase tracking-[0.3em] text-muted-foreground'>
-              Case Study
+              {project.category}
             </p>
             <h1 className='mb-6 text-[clamp(3rem,9vw,7rem)] leading-none'>
               {project.title}
@@ -52,14 +52,14 @@ export default function ProjectPage({ params }) {
             </p>
 
             <div className='mt-10 flex flex-wrap gap-4'>
-              <Link href='/work'>
+              <a href={project.externalUrl} target='_blank' rel='noopener noreferrer'>
                 <MagneticButton variant='primary' size='md'>
-                  Back to work
+                  Open project
                 </MagneticButton>
-              </Link>
+              </a>
               <Link href='/contact'>
                 <MagneticButton variant='outline' size='md'>
-                  Start a project
+                  Let&apos;s brainstorm
                 </MagneticButton>
               </Link>
             </div>

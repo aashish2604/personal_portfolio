@@ -9,14 +9,16 @@ import { Navbar, Transition } from '@/layout';
 export const metadata = {
   title: 'Work',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+    'Selected software, mobile, and open-source work by Aashish Ranjan Singh.',
 };
 
 export default function Work() {
   const items = projectPages.map((project) => (
-    <Link
+    <a
       key={project.slug}
-      href={project.href}
+      href={project.externalUrl}
+      target='_blank'
+      rel='noopener noreferrer'
       className='group flex flex-col gap-6 rounded-3xl border border-border/60 p-5 transition-transform duration-300 ease-in-expo hover:-translate-y-1'
     >
       <div className='relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted'>
@@ -31,15 +33,18 @@ export default function Work() {
       <div className='flex items-start justify-between gap-4'>
         <div>
           <h2 className='text-3xl'>{project.title}</h2>
+          <p className='mt-2 text-sm uppercase tracking-[0.25em] text-muted-foreground'>
+            {project.category}
+          </p>
           <p className='mt-3 max-w-xl text-muted-foreground'>
             {project.summary}
           </p>
         </div>
         <span className='pt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground'>
-          Open
+          Visit
         </span>
       </div>
-    </Link>
+    </a>
   ));
 
   return (
@@ -53,13 +58,14 @@ export default function Work() {
             </p>
             <h1 className='text-[clamp(3rem,9vw,7rem)] leading-none'>Work</h1>
             <p className='text-lg leading-relaxed text-muted-foreground'>
-              A lightweight overview of the linked project routes in this
-              template so every visible entry point has a working destination.
+              A curated view of software products, open-source work, and
+              hackathon builds that reflect how I think about engineering,
+              speed, and practical impact.
             </p>
             <div>
               <Link href='/contact'>
                 <MagneticButton variant='primary' size='md'>
-                  Let&apos;s talk
+                  Let&apos;s brainstorm
                 </MagneticButton>
               </Link>
             </div>

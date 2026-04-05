@@ -7,7 +7,7 @@ import { Navbar, Transition } from '@/layout';
 export const metadata = {
   title: 'Contact',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+    'Get in touch to brainstorm software systems, AI products, and production-ready engineering solutions.',
 };
 
 export default function Contact() {
@@ -21,12 +21,12 @@ export default function Contact() {
               Contact
             </p>
             <h1 className='text-[clamp(3rem,9vw,7rem)] leading-none'>
-              Let&apos;s build something strong together.
+              Let&apos;s build something ambitious together.
             </h1>
             <p className='mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground'>
-              This route now works as a standalone contact page so navigation
-              from the menu, CTA buttons, and project pages all lead somewhere
-              useful.
+              I&apos;m always open to brainstorming ambitious software products,
+              AI infrastructure, developer tooling, and high-leverage systems
+              that need both architectural thinking and fast execution.
             </p>
           </div>
 
@@ -35,16 +35,16 @@ export default function Contact() {
               <p className='text-sm uppercase tracking-[0.2em] text-muted-foreground'>
                 Email
               </p>
-              <a className='mt-2 block text-2xl' href='mailto:info@dennissnellenberg.com'>
-                info@dennissnellenberg.com
+              <a className='mt-2 block text-2xl' href='mailto:singh.aashish2604@gmail.com'>
+                singh.aashish2604@gmail.com
               </a>
             </div>
             <div>
               <p className='text-sm uppercase tracking-[0.2em] text-muted-foreground'>
                 Phone
               </p>
-              <a className='mt-2 block text-2xl' href='tel:+31627847430'>
-                +31 6 27 84 74 30
+              <a className='mt-2 block text-2xl' href='tel:+919199892122'>
+                +91 91998 92122
               </a>
             </div>
             <div className='pt-4'>

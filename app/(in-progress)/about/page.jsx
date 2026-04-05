@@ -7,7 +7,7 @@ import { Navbar, Transition } from '@/layout';
 export const metadata = {
   title: 'About',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+    'Identifying bottlenecks, architecting solutions, and delivering at scale.',
 };
 
 export default function About() {
@@ -21,20 +21,28 @@ export default function About() {
               About
             </p>
             <h1 className='text-[clamp(3rem,9vw,7rem)] leading-none'>
-              Design, code, and interaction working together.
+              Identifying bottlenecks, architecting solutions, and delivering at scale.
             </h1>
           </div>
 
           <div className='space-y-6 text-lg leading-relaxed text-muted-foreground'>
             <p>
-              This page is now a valid route instead of a placeholder dead end.
-              It gives the navigation an intentional landing point and keeps the
-              tone of the site aligned with the homepage.
+              I work at the intersection of software engineering, AI systems,
+              and product execution. My strength lies in breaking down difficult
+              technical bottlenecks, designing reliable architectures, and then
+              moving quickly enough to turn those systems into working products.
             </p>
             <p>
-              The template centers on thoughtful motion, sharp typography, and a
-              portfolio structure that can be expanded into a fuller personal or
-              studio site over time.
+              From internships and hackathon wins to open-source maintenance and
+              production work at Adobe, my path has been shaped by a bias toward
+              shipping useful software with depth, speed, and long-term
+              maintainability.
+            </p>
+            <p>
+              I am especially interested in AI-native developer tooling,
+              systems architecture, automation infrastructure, and building
+              products that remove friction for both users and engineering
+              teams.
             </p>
             <div className='pt-4'>
               <Link href='/work'>

@@ -18,6 +18,20 @@
   }
 }
 
+@keyframes achievements-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc(-50% - 0.625rem), 0, 0);
+  }
+}
+
+.achievements-marquee {
+  animation: achievements-marquee 28s linear infinite;
+}
+
 @layer base {
   /* Firefox */
   * {

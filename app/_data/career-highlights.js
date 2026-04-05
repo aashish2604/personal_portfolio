@@ -1,59 +1,101 @@
 export const achievements = [
   {
-    value: '8+',
-    label: 'Years shaping digital products',
+    value: '2020',
+    label: 'JEE Advanced AIR 5387',
     detail:
-      'Hands-on work across portfolio sites, branded experiences, and interaction-heavy interfaces.',
+      'Cleared one of the toughest undergraduate engineering entrance exams in the world with an All India Rank of 5387.',
   },
   {
-    value: '45',
-    label: 'Selected launches and redesigns',
+    value: '2019',
+    label: 'State Rank 2 in ISC',
     detail:
-      'Projects spanning design systems, marketing websites, and tailored front-end builds.',
+      'Secured 2nd rank at the state level in the ISC intermediate examinations.',
   },
   {
-    value: '12',
-    label: 'Long-term brand partnerships',
+    value: '2022-Present',
+    label: 'Open-Source Maintainer',
     detail:
-      'Repeat collaborations built on shipping quality work, clear communication, and reliable delivery.',
+      'Published and continuously maintain the Flutter package parsed_readmore, serving more than 500 weekly downloads.',
   },
   {
-    value: '3',
-    label: 'Core disciplines combined',
+    value: '2023',
+    label: 'Adobe Papyrus Nebulae Winner',
     detail:
-      'Strategy, visual design, and front-end craft working together from concept to release.',
+      'Won the national-level Adobe Papyrus Nebulae Hackathon with strong product thinking and rapid execution.',
+  },
+  {
+    value: '2024',
+    label: 'Meesho Dice Winner',
+    detail:
+      'Won the national-level Meesho Dice Hackathon by shipping a standout mobile-first build under pressure.',
+  },
+  {
+    value: '2025',
+    label: 'Adobe Global Innovation Winner',
+    detail:
+      'Won Adobe DC Garage Week, a global internal innovation competition focused on impactful software ideas.',
   },
 ];
 
 export const careerTimeline = [
   {
-    year: '2016',
-    title: 'First freelance projects',
-    description:
-      'Started taking on independent client work and built a foundation in web design, branding, and front-end implementation.',
-  },
-  {
-    year: '2018',
-    title: 'Shifted toward digital product work',
-    description:
-      'Moved from isolated page design into broader digital systems, focusing on flow, responsiveness, and storytelling.',
-  },
-  {
     year: '2020',
-    title: 'Motion became part of the process',
+    title: 'Cleared JEE Advanced',
     description:
-      'Began using interaction and animation more intentionally to improve pacing, clarity, and perceived quality.',
+      'Built the rigorous engineering foundation that still shapes the way I approach systems, architecture, and problem solving.',
+  },
+  {
+    year: '2021',
+    title: 'Flutter Intern at IamEars',
+    description:
+      'Worked on the cross-platform application, revamped product state management, enhanced UI quality, and added video appointment infrastructure with analytics tracking.',
   },
   {
     year: '2022',
-    title: 'Scaled to end-to-end delivery',
+    title: 'Published parsed_readmore',
     description:
-      'Handled complete project arcs from concept and art direction through front-end development and launch.',
+      'Released my first open-source Flutter library and continued maintaining it over the years with real developer adoption.',
   },
   {
-    year: 'Today',
-    title: 'Building standout portfolio experiences',
+    year: '2023 Jan',
+    title: 'Built AI app at vHub.ai',
     description:
-      'Focused on premium web experiences that combine strong typography, smooth motion, and performance-conscious implementation.',
+      'Interned as an application developer and created the company’s AI marketing app from scratch for both Play Store and App Store release.',
+  },
+  {
+    year: '2023 May',
+    title: 'Won Adobe Papyrus Nebulae',
+    description:
+      'Won the Adobe Papyrus Nebulae Hackathon, a national-level event that rewarded speed, clarity, and shipping ability.',
+  },
+  {
+    year: '2024 Aug',
+    title: 'Interned at Adobe',
+    description:
+      'Joined Adobe as an intern, delivered strongly, and secured a pre-placement offer.',
+  },
+  {
+    year: '2024 Oct',
+    title: 'Won Meesho Dice',
+    description:
+      'Won the Meesho Dice Hackathon, another national-level event where product instinct and execution mattered deeply.',
+  },
+  {
+    year: '2025 Jun',
+    title: 'Started as SDE at Adobe',
+    description:
+      'Began my full-time journey as a Software Development Engineer at Adobe, building software at production scale.',
+  },
+  {
+    year: '2025 Dec',
+    title: 'Won Adobe DC Garage Week',
+    description:
+      'Won Adobe DC Mobile Garage Week, an internal global competition centered on innovation and product impact.',
+  },
+  {
+    year: '2026',
+    title: 'Started my own product ecosystem',
+    description:
+      'Single-handedly built a unified developer ecosystem with Steroid MCP, Vault, Flows, and CLI that sets up in under five minutes, reduces MCP context bloat by 97%, saves more than 60% in token costs, prevents malicious prompt injection, and enables deterministic workflow execution.',
   },
 ];

@@ -12,9 +12,9 @@ import {
 
 /** @type {import('next').Metadata} */
 export const metadata = {
-  title: 'Home | Dennis Snellenberg',
+  title: 'Home',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+    'Architecting reliable infrastructure for the AI-driven era with production-ready software, AI systems, and rapid execution.',
 };
 
 export default function Home() {
