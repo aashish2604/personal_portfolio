@@ -17,7 +17,7 @@ export function UserDetails({ transformX }) {
   return (
     <Container>
       <Row>
-        <div className='flex items-center gap-8'>
+        <div className='flex items-center gap-4 sm:gap-8'>
           <ImageWrapper>
             <Image
               src='/images/profile/profile.webp'
@@ -53,7 +53,7 @@ export function UserDetails({ transformX }) {
       </Row>
 
       <Row>
-        <div className='flex w-full flex-col gap-4 lg:flex-row'>
+        <div className='flex w-full flex-col gap-3 sm:gap-4 lg:flex-row'>
           <div>
             <a href='mailto:singh.aashish2604@gmail.com'>
               <MagneticButton

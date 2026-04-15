@@ -24,9 +24,9 @@ export function SocialInfo() {
   });
 
   return (
-    <div className='px-12 pb-4 pt-10'>
-      <div className='flex flex-wrap items-stretch justify-between gap-5'>
-        <div className='flex gap-8'>
+    <div className='px-4 pb-4 pt-8 sm:px-8 md:px-12 md:pt-10'>
+      <div className='flex flex-col gap-6 sm:flex-row sm:flex-wrap sm:items-stretch sm:justify-between sm:gap-5'>
+        <div className='flex gap-4 sm:gap-8'>
           <div>
             <ListTitle>Version</ListTitle>
             <p className='mt-7'>2026 © Edition</p>
@@ -41,7 +41,7 @@ export function SocialInfo() {
 
         <div className='flex flex-col'>
           <ListTitle>Socials</ListTitle>
-          <ul className='flex gap-8'>{medias}</ul>
+          <ul className='flex flex-wrap gap-4 sm:gap-8'>{medias}</ul>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ export const achievements = [
     value: '2020',
     label: 'JEE Advanced AIR 5387',
     detail:
-      'Cleared one of the toughest undergraduate engineering entrance exams in the world with an All India Rank of 5387.',
+      'Cleared JEE Mains with a 99.4 percentile and JEE Advanced with an All India Rank of 5387, one of the toughest engineering entrance exams in the world.',
   },
   {
     value: '2019',
@@ -42,7 +42,7 @@ export const careerTimeline = [
     year: '2020',
     title: 'Cleared JEE Advanced',
     description:
-      'Built the rigorous engineering foundation that still shapes the way I approach systems, architecture, and problem solving.',
+      'Built the rigorous engineering foundation that still shapes the way I approach systems, architecture, and problem solving. Took admission into IIT (ISM) Dhanbad pursuing Integrated Master of Technology in Mathematics and Computing.',
   },
   {
     year: '2021',
@@ -54,7 +54,7 @@ export const careerTimeline = [
     year: '2022',
     title: 'Published parsed_readmore',
     description:
-      'Released my first open-source Flutter library and continued maintaining it over the years with real developer adoption.',
+      'Released my first open-source Flutter library and continued maintaining it over the years with real developer adoption. Still has over 500+ weekly downloads.',
   },
   {
     year: '2023 Jan',
@@ -79,6 +79,12 @@ export const careerTimeline = [
     title: 'Won Meesho Dice',
     description:
       'Won the Meesho Dice Hackathon, another national-level event where product instinct and execution mattered deeply.',
+  },
+  {
+    year: '2025 May',
+    title: 'Graduated from IIT (ISM) Dhanbad',
+    description:
+      'Graduated with an Integrated M.Tech in Mathematics and Computing from IIT (ISM) Dhanbad.',
   },
   {
     year: '2025 Jun',

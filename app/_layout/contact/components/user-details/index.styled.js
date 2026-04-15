@@ -5,8 +5,12 @@ import { styled } from 'styled-components';
 const containerValue = ({ theme }) => theme?.breakpoints?.container;
 
 export const Container = styled.div`
-  padding-inline: calc(clamp(2.5em, 8vw, 8em) * 2);
+  padding-inline: clamp(1.5rem, 5vw, 4rem);
   margin-inline: auto;
+
+  @media screen and (min-width: 768px) {
+    padding-inline: calc(clamp(2.5em, 8vw, 8em) * 2);
+  }
 
   @media screen and (min-width: ${containerValue}) {
     max-width: ${containerValue};
@@ -26,7 +30,7 @@ export const Row = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
-  --image-size: clamp(4.5em, 6.5vw, 8em);
+  --image-size: clamp(3rem, 6.5vw, 8em);
 
   position: relative;
   width: var(--image-size);
@@ -34,6 +38,10 @@ export const ImageWrapper = styled.div`
 `;
 
 export const MainTitle = styled.h2`
-  font-size: calc(clamp(3.25em, 7vw, 8em) * 0.875);
+  font-size: clamp(1.75rem, 7vw, 3rem);
   line-height: 1.1;
+
+  @media screen and (min-width: 768px) {
+    font-size: calc(clamp(3.25em, 7vw, 8em) * 0.875);
+  }
 `;

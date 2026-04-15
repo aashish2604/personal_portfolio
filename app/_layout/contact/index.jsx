@@ -19,7 +19,7 @@ export function Contact() {
       className='relative max-h-screen bg-foreground text-background'
       style={{ y: transformY }}
     >
-      <div style={{ paddingBlock: 'clamp(5em, 21vh, 12em)' }}>
+      <div style={{ paddingBlock: 'clamp(2.5em, 10vh, 12em)' }}>
         <UserDetails transformX={transformX} />
         <SocialInfo />
       </div>

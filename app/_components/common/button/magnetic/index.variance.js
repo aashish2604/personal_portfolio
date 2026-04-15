@@ -18,9 +18,9 @@ export const magneticVariance = cva(
       },
       size: {
         default: 'p-2 text-sm',
-        md: 'px-8 py-10 text-base',
-        lg: 'px-8 py-16 text-lg lg:px-12 lg:py-20',
-        xl: 'px-10 py-16 text-lg lg:px-14 lg:py-20',
+        md: 'px-5 py-6 text-sm md:px-8 md:py-10 md:text-base',
+        lg: 'px-6 py-10 text-base md:px-8 md:py-16 md:text-lg lg:px-12 lg:py-20',
+        xl: 'px-6 py-10 text-base md:px-10 md:py-16 md:text-lg lg:px-14 lg:py-20',
       },
     },
     defaultVariants: {

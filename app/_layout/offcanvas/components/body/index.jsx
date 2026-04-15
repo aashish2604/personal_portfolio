@@ -22,8 +22,8 @@ export function OffcanvasBody() {
     >
       <OffcanvasBackdrop />
 
-      <div className='absolute right-0 top-0 h-screen bg-foreground text-background'>
-        <div className='flex h-full flex-col justify-between p-24'>
+      <div className='absolute right-0 top-0 h-screen w-full bg-foreground text-background sm:w-[480px] md:w-auto'>
+        <div className='flex h-full flex-col justify-between p-8 pt-24 sm:p-12 sm:pt-24 md:p-24'>
           <OffcanvasLinks />
           <OffcanvasFooter />
         </div>

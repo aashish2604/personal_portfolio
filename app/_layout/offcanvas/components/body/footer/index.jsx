@@ -18,5 +18,5 @@ export function OffcanvasFooter() {
     );
   });
 
-  return <ul className='flex w-full justify-between gap-10'>{medias}</ul>;
+  return <ul className='flex w-full flex-wrap justify-between gap-4 sm:gap-10'>{medias}</ul>;
 }

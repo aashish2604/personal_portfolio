@@ -27,9 +27,19 @@ export function Header() {
       initial='initial'
       animate='enter'
     >
+      {/* Mobile hero image */}
+      <Image
+        src='/images/hero/hero-mobile.jpeg'
+        className='object-cover md:hidden'
+        fill={true}
+        sizes='100vw'
+        priority={true}
+        alt='Aashish Ranjan Singh hero portrait'
+      />
+      {/* Desktop hero image */}
       <Image
         src='/images/hero/hero.webp'
-        className='object-cover md:scale-125 md:object-contain'
+        className='hidden object-cover md:block md:scale-125 md:object-contain'
         fill={true}
         sizes='100vw'
         priority={true}
@@ -39,7 +49,7 @@ export function Header() {
       <div className='relative flex h-full flex-col justify-end gap-2 md:flex-col-reverse md:justify-normal'>
         <div className='select-none'>
           <h1
-            className='text-[max(9em,15vw)] leading-[0.9] text-white'
+            className='text-[max(4.5em,7.5vw)] leading-[0.9] text-white md:text-[max(9em,15vw)]'
             style={heroTitleStyle}
           >
             <ParallaxSlider repeat={4} baseVelocity={2}>
@@ -52,7 +62,7 @@ export function Header() {
         </div>
 
         <div className='md:mr-auto'>
-          <div className='mx-10 text-black max-md:my-12 md:mx-36'>
+          <div className='mx-6 text-black max-md:my-12 sm:mx-10 md:mx-36'>
             <div
               className='mb-4 text-white md:mb-20'
               style={outlinedTextStyle}
