@@ -24,7 +24,7 @@ export function Achievements() {
               Achievements
             </p>
             <h2 className='mt-4 text-[clamp(2.5rem,6vw,5rem)] leading-none'>
-              Milestones earned through execution.
+              Pivotal highlights of my career.
             </h2>
           </div>
           <p className='max-w-xl text-base leading-7 text-muted-foreground'>
